@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "untitled",
+  "version": "${version}",
+  "name": "Portal Limiter",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/untitled/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "PortalLimiter.client.PortalLimiterDataGenerator"
+    ],
+    "client": [
+      "PortalLimiter.client.PortalLimiterClient"
+    ],
+    "main": [
+      "PortalLimiter.PortalLimiter"
+    ]
+  },
+  "mixins": [
+    "untitled.mixins.json",
+    {
+      "config": "untitled.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

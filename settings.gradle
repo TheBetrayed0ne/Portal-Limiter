@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'Fabric'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    // Lets Gradle auto-download a JDK 17 toolchain for running the Minecraft
+    // client/server, independent of the JDK org.gradle.java.home points Gradle at.
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
