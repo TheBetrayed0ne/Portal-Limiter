@@ -3,8 +3,10 @@
   "id": "portallimiter",
   "version": "${version}",
   "name": "Portal Limiter",
-  "description": "",
-  "authors": [],
+  "description": "Puts a limit on how many nether and end portals can be open at once.",
+  "authors": [
+    "TheBetrayed0ne"
+  ],
   "contact": {},
   "license": "MIT",
   "icon": "assets/portallimiter/icon.png",
