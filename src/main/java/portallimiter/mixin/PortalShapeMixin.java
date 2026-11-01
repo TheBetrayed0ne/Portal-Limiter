@@ -1,7 +1,7 @@
-package PortalLimiter.mixin;
+package portallimiter.mixin;
 
-import PortalLimiter.Config;
-import PortalLimiter.PortalRegistryState;
+import portallimiter.Config;
+import portallimiter.PortalRegistryState;
 import net.minecraft.block.BlockState;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.world.ServerWorld;

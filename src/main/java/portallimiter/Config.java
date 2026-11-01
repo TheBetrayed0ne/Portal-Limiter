@@ -1,4 +1,4 @@
-package PortalLimiter;
+package portallimiter;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

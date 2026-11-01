@@ -1,7 +1,7 @@
-package PortalLimiter.mixin;
+package portallimiter.mixin;
 
-import PortalLimiter.Config;
-import PortalLimiter.PortalRegistryState;
+import portallimiter.Config;
+import portallimiter.PortalRegistryState;
 import com.llamalad7.mixinextras.sugar.Local;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

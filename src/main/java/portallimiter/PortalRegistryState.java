@@ -1,4 +1,4 @@
-package PortalLimiter;
+package portallimiter;
 
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;

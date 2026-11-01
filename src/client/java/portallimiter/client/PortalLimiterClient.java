@@ -1,4 +1,4 @@
-package PortalLimiter.client;
+package portallimiter.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

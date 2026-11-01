@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "untitled",
+  "id": "portallimiter",
   "version": "${version}",
   "name": "Portal Limiter",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/untitled/icon.png",
+  "icon": "assets/portallimiter/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "PortalLimiter.client.PortalLimiterDataGenerator"
+      "portallimiter.client.PortalLimiterDataGenerator"
     ],
     "client": [
-      "PortalLimiter.client.PortalLimiterClient"
+      "portallimiter.client.PortalLimiterClient"
     ],
     "main": [
-      "PortalLimiter.PortalLimiter"
+      "portallimiter.PortalLimiter"
     ]
   },
   "mixins": [
-    "untitled.mixins.json",
+    "portallimiter.mixins.json",
     {
-      "config": "untitled.client.mixins.json",
+      "config": "portallimiter.client.mixins.json",
       "environment": "client"
     }
   ],

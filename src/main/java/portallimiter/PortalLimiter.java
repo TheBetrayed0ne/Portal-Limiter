@@ -1,4 +1,4 @@
-package PortalLimiter;
+package portallimiter;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class PortalLimiter implements ModInitializer {
-    public static final String MOD_ID = "untitled";
+    public static final String MOD_ID = "portallimiter";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     private static volatile MinecraftServer SERVER;

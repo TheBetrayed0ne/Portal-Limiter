@@ -1,6 +1,6 @@
-package PortalLimiter.mixin;
+package portallimiter.mixin;
 
-import PortalLimiter.PortalRegistryState;
+import portallimiter.PortalRegistryState;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
