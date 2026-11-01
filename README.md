@@ -1,1 +1,1 @@
-Forgot I had Github for a sec. Anyway it does what i says on the tin, allows you to put a limit on how many nether and end portals can be lit at once, why would you want this? no idea but someone i know asked me to make it
+Forgot I had Github for a sec. Anyway it does what i says on the tin, allows you to put a limit on how many nether and end portals can be lit at once, why would you want this? no idea but someone i know asked me to make it. Might add compatablity for other portal like mods later
